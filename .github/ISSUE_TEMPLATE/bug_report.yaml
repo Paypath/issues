@@ -1,19 +1,28 @@
 name: Bug Report
 description: File a bug report
-title: ""
+title: "Bug: "
 labels: ["kind/bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+          ### WAIT! PLEASE MAKE SURE THAT YOUR ISSUE HASN'T ALREADY BEEN REPORTED. WE WILL CLOSE ANY DUPLICATE ISSUES.
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please be sure to fill this form out **completely** and follow the format,
+        otherwise your issue may get closed without any further clarification.
+  - type: markdown
+    attributes:
+      value: |
+        *Please note that we may not acknowledge all issues. If your issue is urgent and has not been acknowledged, please join [our Discord](https://discord.gg/3MPGTCPAEe)!*
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Explain what happened, and steps you took to reproduce this issue.
-      value: ""
+      value: "X happened..."
     validations:
       required: true
   - type: dropdown
